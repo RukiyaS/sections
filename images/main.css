@@ -1,0 +1,32 @@
+html {
+  background-color: #eee9de;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.container {
+  max-width: 50em;
+}
+.image {
+  display: inline-block;
+  background-color: blue;
+  padding: 3em;
+}
+
+.text {
+  display: inline-block;
+  background-color: red;
+}
+
+h2 {
+  color: #333;
+}
+
+.text a {
+  display: inline-block;
+  border-radius: .5em;
+  border-color: #333;
+}
